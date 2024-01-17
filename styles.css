@@ -1,0 +1,54 @@
+.hang-man {
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#lvl-1, #lvl-2 {
+    width: 320px;
+    height: 120px;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none !important;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+#game .container-sm {
+    text-align: left;
+}
+
+#game-word {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
+#game-word input {
+    font-size: 4rem;
+    width: 5rem;
+    border-radius: 8px;
+    text-align: center;
+    size: 1;
+}
